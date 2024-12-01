@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Example 2</title>
+    <style>
+        .GridCol
+        {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);  /*As number increases width decreases and cols increase in same row*/ 
+            grid-template-rows: repeat(3,1fr); /*repeat(repeat cols in one line,1fr)*/
+            gap: 20px;
+        }
+        .GridRow
+        {
+            display: grid;
+          /*As number increases width decreases and cols increase in same row*/ 
+            grid-template-rows: repeat(3,1fr); /*repeat(repeat cols in one line,1fr)*/
+            gap: 20px;
+        }
+        .gridColor
+        {
+            background-color: aquamarine;
+            border-radius: 5px;
+            border: 2px dashed green;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="GridCol">
+        <div class="gridColor">1</div>
+        <div class="gridColor">2</div>
+        <div class="gridColor">3</div>
+        <div class="gridColor">4</div>
+        <div class="gridColor">5</div>
+    </div>
+    <div class="GridRow">
+        <div class="gridColor">5</div>
+        <div class="gridColor">5</div>
+        <div class="gridColor">5</div>
+    </div>
+</body>
+</html>
