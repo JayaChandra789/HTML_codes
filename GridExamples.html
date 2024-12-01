@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Example</title>
+    <style>
+        .grid-Container
+        {
+            display: grid;
+            /*grid-template-columns: repeat(5,10fr); */ /*Widht and fr is used tp print beside rather than next line. */
+            grid-template-rows: repeat(5,100px); /*Or we can use like this fot only one or two rows like(100px 200px 1fr) for both rows and colms*/
+            gap: 25px; /*Gap between grids*/
+        }
+        .gridAttributes
+        {
+            background-color: aqua;
+            padding: 10px;
+            text-align: center;
+            border: 3px dashed pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-Container">
+        <div class="gridAttributes">1</div>
+        <div class="gridAttributes">2</div>
+        <div class="gridAttributes">3</div>
+        <div class="gridAttributes">4</div>
+        <div class="gridAttributes">5</div>
+        <div class="gridAttributes">6</div>
+        <div class="gridAttributes">7</div>
+        <div class="gridAttributes">8</div>
+        <div class="gridAttributes">9</div>
+        <div class="gridAttributes">10</div>
+        <div class="gridAttributes">11</div>
+        <div class="gridAttributes">12</div>
+    </div>
+    
+</body>
+</html>

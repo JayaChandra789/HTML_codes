@@ -1,0 +1,17 @@
+.boxBackGround
+{
+    height: 50px; width: 50px;
+    background-color: rgb(99, 99, 86);
+}
+.redIcon
+{
+    height: 20px; width: 20px;
+    background-color: red;
+    border-radius: 100px;
+    padding: 25px;
+}
+.triangleIcon
+{
+    height: 10px; width: 10px;
+    background-image: url('https://www.citypng.com/public/uploads/preview/hd-youtube-yt-white-triangle-symbol-play-icon-png-701751695118560ytgcuvrnd6.png');
+}

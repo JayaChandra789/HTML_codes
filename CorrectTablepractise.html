@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+    <style>
+        table
+        {
+            width: 200px; /*Height is not used*/
+           /*If border collapse is not mentioned gaps will found in between cells*/
+           border-collapse: collapse; /*To merge gaps b/w cells*/
+        }
+        th,td /*Entire body border*/
+        {
+            border: 5px solid red;
+            padding: 5px; /*Only for Gap from all four sides*/
+            text-align: center;
+        }
+        th
+        {
+            background-color: pink;
+        }
+
+    </style>
+<body>
+    <table>
+        <tr>
+            <th> Name</th>
+            <th> Place</th>
+        </tr>
+        <tr>
+            <td> HYD</td>
+            <td> B.N reddy</td>
+        </tr>
+        <tr>
+            <td> PVC</td>
+            <td> OLD pvc</td>
+        </tr>
+        <tr>
+            <td> KHMM</td>
+            <td> BallePally</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+.Orange
+{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    /* background-image: url(''); */
+}
+    /*margin-top: 50px;*/
+    /*padding: 50px ;*/
+    /*Border contains attributes like (% solid color) **border: 10px solid red;** */
+    /*Margin contains attributes --margin-top-- or etc like (%) increase background too*/
+    /*Padding text contains attributes like (up right left down)*/
+.White 
+    {
+        width: 200px;
+        height: 50px;
+        background-color: rgb(231, 227, 218);
+        position: relative; /* To help position the image if necessary */
+    }
+.Green
+{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+#AshokChakraImg 
+{
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Maintain the aspect ratio */
+    position: absolute; 
+    top: 50%; /* Center the image vertically */
+    left: 50%; /* Center the image horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+}
