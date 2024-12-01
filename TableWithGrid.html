@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Grid</title>
+    <style>
+        .gridTable
+        {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            border-collapse: collapse;
+            border: 10px solid #ddd;;
+            text-align: center;
+            padding: 4px;
+        }
+        .text
+        {
+            color: white;
+            background-color: rgb(219, 205, 205);
+            padding: 5px;
+            text-align: center;
+        }
+        .header
+        {
+            background-color: #d9dfe5;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridTable">
+        <div class="header"> Name</div>
+        <div class="header"> Place</div>
+        <div class="header"> Thing</div>
+
+        <div class="text">jaya</div>
+        <div class="text">PVC</div>
+        <div class="text">Pen</div>
+
+        <div class="text">shekar</div>
+        <div class="text">NLG</div>
+        <div class="text">Pencil</div>
+    </div>
+</body>
+</html>
